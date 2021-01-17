@@ -29,8 +29,8 @@ class CARD():
         self.Effect = Effect
 
     #ESTE METODO APLICA EL EFECTO DE LA CARTA EN EL ITEM PASADO POR PARAMETRO
-    def AplicateEffect(self,Item) :
-        self.Effect.Aplicate(Item)
+    def ApplyEffect(self,Item) :
+        self.Effect.Apply(Item)
 
     #ESTE METODO PERMITE ASIGNAR LA PUNTUACION A LA CARTA
     def AssignScore(self,Score):

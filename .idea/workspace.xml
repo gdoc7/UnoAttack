@@ -24,35 +24,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="Prueba">
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Data/ENUMERATE/TYPE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Data/ENUMERATE/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Data/GAMER/GAMER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Data/GAMER/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/EFFECT/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/FILTER/FILTER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/FILTER/FILTER_BY_STATUS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/FILTER/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA/PRUEBA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/SCORE/SCORE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/SCORE/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/STATUS/STATUS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/STATUS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/TURN/TURN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/TURN/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UnoAttack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UnoAttack.iml" afterDir="false" />
+    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="UPDATE - NEW CLASS">
+      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/EFFECT/EFFECT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/EFFECT/JUMP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/PARTIDA/PARTIDA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/PARTIDA/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/Carta/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/CARD/CARD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/Carta/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/CARD/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/Color.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/ENUMERATE/COLOR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/DECK/DECK.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/DECK/DECK.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/DECK/HAND.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/DECK/HAND.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/DECK/STACK.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/DECK/STACK.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/NUMBER.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/ENUMERATE/NUMBER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/MATCH/MATCH_PROPERTY.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/MATCH/MATCH_PROPERTY.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/Prueba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/CARD/CARD.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/CARD/CARD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/GAMER/GAMER.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/GAMER/GAMER.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA/PRUEBA.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA/PRUEBA.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610841395286</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UPDATE - NEW CLASS">
+      <created>1610855176581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610855176581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,37 +195,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
+    <MESSAGE value="UPDATE - NEW CLASS" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE - NEW CLASS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610842090088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1610842090088" />
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1610853539948">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1610859445852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610853539948" />
-    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1610853539948">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610859445852" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1610859445852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610853539948" />
-    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1610853539947">
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610859445852" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1610859445852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610853539947" />
-    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1610853539948">
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610859445852" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1610859445852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610853539948" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610859445852" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1610839628340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610839628340" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1610841406939">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1610855182268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610841406939" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610855182268" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610840909899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
