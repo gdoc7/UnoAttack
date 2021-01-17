@@ -1,4 +1,3 @@
-from UnoAttack.Data.Color import Color
 from UnoAttack.Logical.MATCH.MATCH import MATCH
 
 class MATCH_PROPERTY(MATCH):

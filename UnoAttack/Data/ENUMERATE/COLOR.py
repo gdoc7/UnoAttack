@@ -1,6 +1,6 @@
 from enum import Enum, auto
 
-class Color(Enum):
+class COLOR(Enum):
      Blue=auto()
      Red=auto()
      Green=auto()
