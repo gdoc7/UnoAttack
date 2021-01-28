@@ -28,7 +28,15 @@ class TURN():
             return Gamer
         return self.GetGamer(Filter)
 
-# ESTE METODO INVIERTE LA SECUENCIA DE TURNOS
+    def GetLastGamer(self):
+        Sequence = list(self.Sequence)
+        Gamer = Sequence.pop()
+        self.Sequence = tuple(Sequence)
+        return  Gamer
+
+
+    # ESTE METODO INVIERTE LA SECUENCIA DE TURNOS
     def Revert(self):
         Lista = list(self.Sequence)
-        self.Sequence=Lista.reverse()
+        Lista.reverse()
+        self.Sequence=Lista

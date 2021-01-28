@@ -12,11 +12,10 @@ class STATUS():
      def GetTime(self):
           return self.Time
 
-     # ESTE METODO PERMITE CAMBIAR EL NUMERO DE LA CARTA
+     # ESTE METODO PERMITE CAMBIAR EL TIEMPO DEL ESTADO
      def SetTime(self, Time):
           if (Time > 0):
                self.Time = Time
-
 
      # ESTE METODO INCREMENTA EL TIEMPO DEL ESTADO
      def IncrementTime(self,Time):
@@ -24,6 +23,7 @@ class STATUS():
 
      # ESTE METODO DECREMENTA EL TIEMPO DEL ESTADO
      def DecrementTime(self):
+          if(self.Time > 0):
                self.Time -= 1
 
      # ESTE METODO RETORNA EL TIPO DE ESTADO

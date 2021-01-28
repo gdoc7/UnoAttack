@@ -1,10 +1,12 @@
 from UnoAttack.Data.ENUMERATE.TYPE import TYPE
 from UnoAttack.Logical.EFFECT.EFFECT import EFFECT
 
-class JUMP(EFFECT):
+class REVERSE(EFFECT):
 
     # ESTE METODO APLICA EL EFECTO DE UNA CARTA SOBRE UN ELEMENTO
     def Apply(self,Element):
-        Gamer = Element.GetGamerOfTurn()
-        Gamer.ChangeStatus(TYPE.Locked, 1)
+        Turn = Element.GetTurn()
+        Gamer = Turn.GetLastGamer()
+        Turn.Revert()
+        Turn.AddGamer(Gamer)
 
