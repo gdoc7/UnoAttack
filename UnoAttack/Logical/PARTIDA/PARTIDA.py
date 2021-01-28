@@ -16,3 +16,4 @@ class PARTIDA():
         Gamer = self.Turn.GetGamer(Filter)
         Card = Gamer.SelectHandCard(0)
         Card.ApplyEffect(self)
+
