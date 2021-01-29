@@ -8,5 +8,6 @@ class FILTER_BY_STATUS(FILTER):
         if(Element.GetStatusType() == TYPE.Available.name):
            return True
         Element.DecrementStatusTime()
+        Element.ChangeStatus(TYPE.Available,Element.GetStatusTime())
         return False
 

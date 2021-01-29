@@ -3,7 +3,7 @@ class GAMER():
  #--------CONSTRUCTOR-------------------------------
 
     def __init__(self,Name,Status):
-        self.ChangeEstatus(Status)
+        self.AssignStatus(Status)
         self.SetName(Name)
 
  #---------METODOS------------------------------------
@@ -20,16 +20,20 @@ class GAMER():
     def AssignStatus(self,Status):
         self.Status=Status
 
-    #ESTE METODO RETORNA EL ESTADO DEL JUGADOR
+    #ESTE METODO RETORNA EL TIPO DE ESTADO DEL JUGADOR
     def GetStatusType(self):
         return self.Status.GetType()
+
+    # ESTE METODO RETORNA EL TIEMPO QUE DURARA EL ESTADO DEL JUGADOR
+    def GetStatusTime(self):
+        return self.Status.GetTime()
 
     # ESTE METODO DERECMENTA EL TIEMPO QUE DURARA EL ESTADO
     def DecrementStatusTime(self):
         self.Status.DecrementTime()
 
     #ESTE METODO PERMITE CAMBIAR EL ESTADO DEL JUGADOR
-    def ChangeEstatus(self,type,time):
+    def ChangeStatus(self, type, time):
         self.Status.SetType(type)
         self.Status.SetTime(time)
 
@@ -51,4 +55,4 @@ class GAMER():
 
     #ESTE METODO PERMITE SELECCIONAR UNA CARTA DE LA MANO, SEGUN SU POSICION
     def SelectHandCard(self,Position):
-        self.Hand.GetCard(Position)
+         return self.Hand.GetCard(Position)
