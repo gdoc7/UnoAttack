@@ -1,0 +1,23 @@
+El UnoTest.py necesita pgzero para correr correctamente, para instalarlo simplemente
+
+
+Windows
+pip install pgzero
+
+
+Mac
+pip install pgzero
+
+
+Linux
+sudo pip install pgzero
+
+o
+
+sudo pip3 install pgzero
+
+
+Una vez instalado, para correrlo simplemente se accede al directorio donde se encuentra
+UnoTest.py y en la linea de comandos se escribe pgzrun UnoTest.py
+NOTA: debe haber una carpeta "images" en ese mismo directorio donde se corre, para que las imagenes se puedan mostrar
+	para ello, extraigan carpeta comprimida en este mismo directorio.
