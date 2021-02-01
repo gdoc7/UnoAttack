@@ -1,5 +1,5 @@
-from UnoAttack.Data.ENUMERATE.TYPE import TYPE
-from UnoAttack.Logical.EFFECT.EFFECT import EFFECT
+from UnoAttack.MODEL.ENUMERATE.TYPE import TYPE
+from UnoAttack.CONTROLLER.EFFECT.EFFECT import EFFECT
 
 class REVERSE(EFFECT):
 

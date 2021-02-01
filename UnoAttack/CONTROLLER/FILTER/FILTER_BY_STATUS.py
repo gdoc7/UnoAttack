@@ -1,5 +1,5 @@
-from UnoAttack.Data.ENUMERATE.TYPE import TYPE
-from UnoAttack.Logical.FILTER.FILTER import FILTER
+from UnoAttack.MODEL.ENUMERATE.TYPE import TYPE
+from UnoAttack.CONTROLLER.FILTER.FILTER import FILTER
 
 class FILTER_BY_STATUS(FILTER):
 

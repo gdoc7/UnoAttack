@@ -1,20 +1,20 @@
-from UnoAttack.Data.CARD.CARD import CARD
-from UnoAttack.Data.ENUMERATE.COLOR import COLOR
-from UnoAttack.Data.DECK.HAND import HAND
-from UnoAttack.Data.DECK.STACK import STACK
-from UnoAttack.Data.ENUMERATE.NUMBER import NUMBER
-from UnoAttack.Data.ENUMERATE.TYPE import TYPE
-from UnoAttack.Data.GAMER.GAMER import GAMER
-from UnoAttack.Logical.EFFECT.EFFECT import EFFECT
-from UnoAttack.Logical.EFFECT.JUMP import JUMP
-from UnoAttack.Logical.EFFECT.REVERSE import REVERSE
-from UnoAttack.Logical.FILTER.FILTER_BY_STATUS import FILTER_BY_STATUS
-from UnoAttack.Logical.MATCH.MATCH_NUMBER import MATCH_NUMBER
-from UnoAttack.Logical.MATCH.MATCH_PROPERTY import MATCH_PROPERTY
-from UnoAttack.Logical.PARTIDA.PARTIDA import PARTIDA
-from UnoAttack.Logical.SCORE.SCORE import SCORE
-from UnoAttack.Logical.STATUS.STATUS import STATUS
-from UnoAttack.Logical.TURN.TURN import TURN
+from UnoAttack.MODEL.CARD.CARD import CARD
+from UnoAttack.MODEL.ENUMERATE.COLOR import COLOR
+from UnoAttack.MODEL.DECK.HAND import HAND
+from UnoAttack.MODEL.DECK.STACK import STACK
+from UnoAttack.MODEL.ENUMERATE.NUMBER import NUMBER
+from UnoAttack.MODEL.ENUMERATE.TYPE import TYPE
+from UnoAttack.MODEL.GAMER.GAMER import GAMER
+from UnoAttack.CONTROLLER.EFFECT.EFFECT import EFFECT
+from UnoAttack.CONTROLLER.EFFECT.JUMP import JUMP
+from UnoAttack.CONTROLLER.EFFECT.REVERSE import REVERSE
+from UnoAttack.CONTROLLER.FILTER.FILTER_BY_STATUS import FILTER_BY_STATUS
+from UnoAttack.CONTROLLER.MATCH.MATCH_NUMBER import MATCH_NUMBER
+from UnoAttack.CONTROLLER.MATCH.MATCH_PROPERTY import MATCH_PROPERTY
+from UnoAttack.CONTROLLER.PARTIDA.PARTIDA import PARTIDA
+from UnoAttack.CONTROLLER.SCORE.SCORE import SCORE
+from UnoAttack.CONTROLLER.STATUS.STATUS import STATUS
+from UnoAttack.CONTROLLER.TURN.TURN import TURN
 
 
 

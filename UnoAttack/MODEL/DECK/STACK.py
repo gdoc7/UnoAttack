@@ -1,4 +1,4 @@
-from UnoAttack.Data.DECK.DECK import DECK
+from UnoAttack.MODEL.DECK.DECK import DECK
 
 class STACK(DECK):
 

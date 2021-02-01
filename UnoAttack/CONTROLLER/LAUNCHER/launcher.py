@@ -1,7 +1,7 @@
 
 from random import randrange
-from UnoAttack.Data.DECK import STACK
-from UnoAttack.Data.GAMER import GAMER
+from UnoAttack.MODEL.DECK import STACK
+from UnoAttack.MODEL.GAMER import GAMER
 
 class Launcher():
     def __init__(self):
