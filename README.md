@@ -2,7 +2,7 @@
 
 Juego de uno attack, en el que se comunicaran 4 PC por puerto RS232 
 
-#Requerimientos 
+# Requerimientos 
 
 ## Python 
 
