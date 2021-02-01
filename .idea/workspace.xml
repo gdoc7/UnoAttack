@@ -25,14 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="UPDATE - NEW CLASS">
-      <change afterPath="$PROJECT_DIR$/UnoAttack/Logical/EFFECT/REVERSE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/CARD/CARD.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/CARD/CARD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/Data/DECK/HAND.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/DECK/HAND.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnoAttack/Data/GAMER/GAMER.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Data/GAMER/GAMER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/EFFECT/JUMP.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/EFFECT/JUMP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/FILTER/FILTER_BY_STATUS.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/FILTER/FILTER_BY_STATUS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/MATCH/MATCH_NUMBER.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/MATCH/MATCH_NUMBER.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/MATCH/MATCH_PROPERTY.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/MATCH/MATCH_PROPERTY.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/PARTIDA/PARTIDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/PARTIDA/PARTIDA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA/PRUEBA.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA/PRUEBA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/STATUS/STATUS.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/STATUS/STATUS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnoAttack/Logical/TURN/TURN.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/Logical/TURN/TURN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +70,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.PRUEBA">
+    <configuration name="CARD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UnoAttack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnoAttack/Data/CARD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnoAttack/Data/CARD/CARD.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GAMER" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UnoAttack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +104,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnoAttack/Data/GAMER/GAMER.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PARTIDA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UnoAttack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnoAttack/Logical/PARTIDA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnoAttack/Logical/PARTIDA/PARTIDA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +178,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.PRUEBA" />
+        <item itemvalue="Python.CARD" />
+        <item itemvalue="Python.PARTIDA" />
         <item itemvalue="Python.GAMER" />
         <item itemvalue="Python.TURN" />
       </list>
@@ -187,7 +231,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610859785756</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Algunos cambios">
+      <created>1611799422383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611799422383</updated>
+    </task>
+    <task id="LOCAL-00007" summary="A">
+      <created>1611799456144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611799456144</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Algunas modificaciones">
+      <created>1611799501408</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611799501408</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +260,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -206,56 +288,66 @@
     <MESSAGE value="Prueba" />
     <MESSAGE value="UPDATE - NEW CLASS" />
     <MESSAGE value="UPDATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
+    <MESSAGE value="Algunos cambios" />
+    <MESSAGE value="A" />
+    <MESSAGE value="Algunas modificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algunas modificaciones" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610842090088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1610842090088" />
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1611798242890">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1612149401880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
-    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1611798242890">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612149401880" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1612149401880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
-    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1611798242890">
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612149401880" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1612149401859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
-    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1611798242890">
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612149401859" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1612149401880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
-    <state width="1344" height="216" key="GridCell.Tab.1.bottom" timestamp="1611796567450">
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612149401880" />
+    <state width="1344" height="216" key="GridCell.Tab.1.bottom" timestamp="1612140689011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611796567450" />
-    <state width="1344" height="216" key="GridCell.Tab.1.center" timestamp="1611796567449">
+    <state width="1344" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612140689011" />
+    <state width="1344" height="216" key="GridCell.Tab.1.center" timestamp="1612140689011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611796567449" />
-    <state width="1344" height="216" key="GridCell.Tab.1.left" timestamp="1611796567449">
+    <state width="1344" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1612140689011" />
+    <state width="1344" height="216" key="GridCell.Tab.1.left" timestamp="1612140689011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611796567449" />
-    <state width="1344" height="216" key="GridCell.Tab.1.right" timestamp="1611796567450">
+    <state width="1344" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1612140689011" />
+    <state width="1344" height="216" key="GridCell.Tab.1.right" timestamp="1612140689011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611796567450" />
+    <state width="1344" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1612140689011" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1610839628340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610839628340" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1610859791421">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1611799505107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610859791421" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611799505107" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610840909899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610840909899" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

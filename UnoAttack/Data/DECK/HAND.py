@@ -27,3 +27,14 @@ class HAND(DECK):
                 Lista.remove(card)
         self.Cards=tuple(Lista)
         return Requests
+
+    #ESTE METODO RETORNA LA CANTIDAD DE CARTAS DE LA MANO
+    def QuantityCards(self):
+        return len(self.Cards)
+
+
+    def SumScoreOfCards(self):
+        Sum = 0
+        for Card in self.Cards:
+            Sum+=Card.GetScore()
+        return  Sum

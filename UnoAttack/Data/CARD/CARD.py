@@ -10,7 +10,8 @@ class CARD():
 
     #ESTE METODO RETORNA EL NUMERO DE LA CARTA
     def GetNumber(self):
-        return self.Number.name
+        if(self.Number):
+            return self.Number.name
 
     #ESTE METODO PERMITE CAMBIAR EL NUMERO DE LA CARTA
     def SetNumber(self, Number):
@@ -18,7 +19,8 @@ class CARD():
 
     #ESTE METODO RETORNA LA PROPIEDAD DE LA  CARTA (EN EL CASO DE UNO EL COLOR)
     def GetProperty(self):
-        return self.Property.name
+        if (self.Property):
+            return self.Property
 
     #ESTE METODO PERMITE CAMBIAR LA PROPIEDAD DE LA CARTA
     def SetProperty(self, Property):
@@ -36,4 +38,6 @@ class CARD():
     def AssignScore(self,Score):
         self.Score=Score
 
-
+    #ESTE METODO RETORNA LA PUNTUACION DEL JU8GADOR
+    def GetScore(self):
+        return  self.Score.GetValue()

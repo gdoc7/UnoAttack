@@ -43,7 +43,14 @@ class GAMER():
 
     #ESTE METODO PERMITE INCREMENTAR LA PUNTUACION DEL JUGADOR
     def IncrementScore(self,Value):
-        self.Score.Increment()
+        self.Score.Increment(Value)
+
+    #ESTE METODO RETORNA ES LA PUNTUACION DEL JUGADOR
+    def GetScore(self):
+        return self.Score.GetValue()
+
+    def SumScoreOfCards(self):
+        return  self.Hand.SumScoreOfCards()
 
     #ESTE METODO PERMITE ASIGNAR LA MANO DE CARTAS DEL JUGADOR
     def AssignHand(self,Hand):
@@ -56,3 +63,7 @@ class GAMER():
     #ESTE METODO PERMITE SELECCIONAR UNA CARTA DE LA MANO, SEGUN SU POSICION
     def SelectHandCard(self,Position):
          return self.Hand.GetCard(Position)
+
+    #ESTE METODO RETORNA LA CANTIDAD DE CARTAS DEL JUGADOR
+    def QuantityCards(self):
+        return self.Hand.QuantityCards()
