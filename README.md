@@ -6,7 +6,7 @@ Juego de uno attack, en el que se comunicaran 4 PC por puerto RS232
 
 ##Python 
 Python 3.8 Se uso para la constuccion de este juego, para su descarga:
-`(https://www.python.org/downloads/release/python-380/)`
+Visitar [aqui](https://www.python.org/downloads/release/python-380/)
 
 ##PYgame 
 `$pip install pygame`
