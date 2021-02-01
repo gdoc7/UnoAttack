@@ -1,15 +1,18 @@
-from Unoattack.Data import *
-from random import randrange
 
-class Launcher(evento):
+from random import randrange
+from UnoAttack.Data.DECK import STACK
+from UnoAttack.Data.GAMER import GAMER
+
+class Launcher():
     def __init__(self):
         pass
 
     def lanzar_carta (self, evento):
-        if evento == true:
+        if evento:
             for x in randrange(10):
-                carta = GetCard(1)
-        return GAMER.AddCardToHand(carta)
+                card = STACK.STACK.GetCard(0)
+                GAMER.GAMER.AssignHand(card)
+
 
 
 
