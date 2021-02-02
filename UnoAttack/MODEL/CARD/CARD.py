@@ -2,9 +2,10 @@
 class CARD():
 
 # --------CONSTRUCTORES-------------------------------
-    def __init__(self, Property,Number):
+    def __init__(self, Property,Number,Effect):
         self.SetProperty(Property)
         self.SetNumber(Number)
+        self.AssignEffect(Effect)
 
  #---------METODOS------------------------------------
 
@@ -32,7 +33,8 @@ class CARD():
 
     #ESTE METODO APLICA EL EFECTO DE LA CARTA EN EL ITEM PASADO POR PARAMETRO
     def ApplyEffect(self,Item) :
-        self.Effect.Apply(Item)
+        if(self.Effect != None):
+            self.Effect.Apply(Item)
 
     #ESTE METODO PERMITE ASIGNAR LA PUNTUACION A LA CARTA
     def AssignScore(self,Score):

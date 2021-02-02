@@ -1,4 +1,3 @@
-from UnoAttack.MODEL.ENUMERATE.TYPE import TYPE
 from UnoAttack.CONTROLLER.EFFECT.EFFECT import EFFECT
 
 class REVERSE(EFFECT):

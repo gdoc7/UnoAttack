@@ -1,14 +1,13 @@
+from UnoAttack.CONTROLLER.FACTORY.FACTORY_CARD import FACTORY_CARD
+from UnoAttack.CONTROLLER.FACTORY.FACTORY_SIMPLECARD import FACTORY_SIMPLECARD
 from UnoAttack.MODEL.CARD.CARD import CARD
-from UnoAttack.MODEL.ENUMERATE.COLOR import COLOR
+from UnoAttack.CONTROLLER.ENUMERATE.COLOR import COLOR
 from UnoAttack.MODEL.DECK.HAND import HAND
 from UnoAttack.MODEL.DECK.STACK import STACK
-from UnoAttack.MODEL.ENUMERATE.NUMBER import NUMBER
-from UnoAttack.MODEL.ENUMERATE.TYPE import TYPE
+from UnoAttack.CONTROLLER.ENUMERATE.NUMBER import NUMBER
+from UnoAttack.CONTROLLER.ENUMERATE.TYPE import TYPE
 from UnoAttack.MODEL.GAMER.GAMER import GAMER
-from UnoAttack.CONTROLLER.EFFECT.EFFECT import EFFECT
 from UnoAttack.CONTROLLER.EFFECT.JUMP import JUMP
-from UnoAttack.CONTROLLER.EFFECT.REVERSE import REVERSE
-from UnoAttack.CONTROLLER.FILTER.FILTER_BY_STATUS import FILTER_BY_STATUS
 from UnoAttack.CONTROLLER.MATCH.MATCH_NUMBER import MATCH_NUMBER
 from UnoAttack.CONTROLLER.MATCH.MATCH_PROPERTY import MATCH_PROPERTY
 from UnoAttack.CONTROLLER.PARTIDA.PARTIDA import PARTIDA
@@ -49,15 +48,15 @@ Gamer2 = GAMER("Martin",status2)
 Gamer3 = GAMER("Rosmary",status3)
 
 #DECLARACION DE LAS CARTAS
-Card1 = CARD(COLOR.Blue, NUMBER.Cero)
-Card2 = CARD(COLOR.Green, NUMBER.Dos)
-Card3 = CARD(COLOR.Red, NUMBER.Nueve)
-Card4 = CARD(COLOR.Blue, NUMBER.Dos)
-Card5 = CARD(COLOR.Blue, None)
-Card6 = CARD(COLOR.Blue, NUMBER.Cero)
-Card7 = CARD(COLOR.Green, NUMBER.Dos)
-Card8 = CARD(COLOR.yellow, NUMBER.Cinco)
-Card9 = CARD(COLOR.Green, NUMBER.Seis)
+Card1 = CARD(COLOR.Blue, NUMBER.Cero,None)
+Card2 = CARD(COLOR.Green, NUMBER.Dos,None)
+Card3 = CARD(COLOR.Red, NUMBER.Nueve,None)
+Card4 = CARD(COLOR.Blue, NUMBER.Dos,None)
+Card5 = CARD(COLOR.Blue, None,Effect)
+Card6 = CARD(COLOR.Blue, NUMBER.Cero,None)
+Card7 = CARD(COLOR.Green, NUMBER.Dos,None)
+Card8 = CARD(COLOR.yellow, NUMBER.Cinco,None)
+Card9 = CARD(COLOR.Green, NUMBER.Seis,None)
 
 #ASIGNACION LOS SCORE DE LAS CARTAS
 Score4 = SCORE()
@@ -97,9 +96,6 @@ Score12.SetValue(80)
 Card9.AssignScore(Score12)
 
 
-#ASIGNACION DE LOS EFECTOS A LAS CARTAS
-Card5.AssignEffect(Effect)
-
 #AGREGAR LAS CARTAS A LA MANO DEL JUGADOR 1
 hand.AddCard(Card5)
 hand.AddCard(Card1)
@@ -133,10 +129,16 @@ turn.AddGamer(Gamer3)
 Partida = PARTIDA()
 Partida.AssignTurn(turn)
 Partida.AssignStack(stack)
-print(Partida.VerificateWin())
+#(Partida.VerificateWin())
 
-for x in Partida.Turn.GetGamers():
-    print(x.GetScore())
+#Factory = FACTORY_SIMPLECARD()
+#Cards=Factory.Create(10)
+#for x in Cards:
+#    print("Carta", x.GetNumber(), x.GetProperty().name)
+
+
+#for x in Partida.Turn.GetGamers():
+#    print(x.GetScore())
 
 #Partida.Start(FILTER_BY_STATUS(),Match)
 
