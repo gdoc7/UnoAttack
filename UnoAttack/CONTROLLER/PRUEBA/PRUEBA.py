@@ -22,8 +22,8 @@ stack = STACK()
 turn =TURN()
 
 hand = HAND()
-han2 = HAND()
-han3 = HAND()
+hand2 = HAND()
+hand3 = HAND()
 
 #DECLARACION DE LOS MATCH
 Match = MATCH_NUMBER()
@@ -35,11 +35,10 @@ status = STATUS(TYPE.Available)
 status2 = STATUS(TYPE.Available)
 status3 = STATUS(TYPE.Available)
 
-#DECLARACION DE LAS PUNTUACINES
+#DECLARACION DE LAS PUNTUACINES DE LOS GAMERS
 Score1 = SCORE()
 Score2 = SCORE()
 Score3 = SCORE()
-
 
 #Effect = REVERSE()
 Effect = JUMP()
@@ -56,6 +55,46 @@ Card3 = CARD(COLOR.Red, NUMBER.Nueve)
 Card4 = CARD(COLOR.Blue, NUMBER.Dos)
 Card5 = CARD(COLOR.Blue, None)
 Card6 = CARD(COLOR.Blue, NUMBER.Cero)
+Card7 = CARD(COLOR.Green, NUMBER.Dos)
+Card8 = CARD(COLOR.yellow, NUMBER.Cinco)
+Card9 = CARD(COLOR.Green, NUMBER.Seis)
+
+#ASIGNACION LOS SCORE DE LAS CARTAS
+Score4 = SCORE()
+Score4.SetValue(20)
+Card1.AssignScore(Score4)
+
+Score5 = SCORE()
+Score5.SetValue(20)
+Card2.AssignScore(Score5)
+
+Score6 = SCORE()
+Score6.SetValue(50)
+Card3.AssignScore(Score6)
+
+Score7 = SCORE()
+Score7.SetValue(10)
+Card4.AssignScore(Score7)
+
+Score8 = SCORE()
+Score8.SetValue(60)
+Card5.AssignScore(Score8)
+
+Score9 = SCORE()
+Score9.SetValue(50)
+Card6.AssignScore(Score9)
+
+Score10 = SCORE()
+Score10.SetValue(30)
+Card7.AssignScore(Score10)
+
+Score11 = SCORE()
+Score11.SetValue(20)
+Card8.AssignScore(Score11)
+
+Score12 = SCORE()
+Score12.SetValue(80)
+Card9.AssignScore(Score12)
 
 
 #ASIGNACION DE LOS EFECTOS A LAS CARTAS
@@ -67,12 +106,21 @@ hand.AddCard(Card1)
 hand.AddCard(Card2)
 Gamer1.AssignHand(hand)
 
+hand2.AddCard(Card3)
+hand2.AddCard(Card4)
+hand2.AddCard(Card6)
+Gamer2.AssignHand(hand2)
+
+#hand3.AddCard(Card7)
+#hand3.AddCard(Card8)
+#hand3.AddCard(Card9)
+Gamer3.AssignHand(hand3)
+
+
 #ASIGNAR PUNTUACIONES
-Gamer1.AssignScore()
-Gamer1.IncrementScore(100)
-Gamer2
-
-
+Gamer1.AssignScore(Score1)
+Gamer2.AssignScore(Score2)
+Gamer3.AssignScore(Score3)
 
 stack.AddCard(Card6)
 
@@ -85,7 +133,12 @@ turn.AddGamer(Gamer3)
 Partida = PARTIDA()
 Partida.AssignTurn(turn)
 Partida.AssignStack(stack)
-Partida.Start(FILTER_BY_STATUS(),Match)
+print(Partida.VerificateWin())
+
+for x in Partida.Turn.GetGamers():
+    print(x.GetScore())
+
+#Partida.Start(FILTER_BY_STATUS(),Match)
 
 
 #print(turn.GetGamer(FILTER_BY_STATUS()))

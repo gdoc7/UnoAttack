@@ -35,6 +35,7 @@ class HAND(DECK):
 
     def SumScoreOfCards(self):
         Sum = 0
-        for Card in self.Cards:
-            Sum+=Card.GetScore()
+        if(len(self.Cards)>0):
+            for Card in self.Cards:
+                Sum+=Card.GetScore()
         return  Sum
