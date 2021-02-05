@@ -60,6 +60,10 @@ class GAMER():
     def AddCardToHand(self,Card):
         self.Hand.AddCard(Card)
 
+
+    def GetHandCardsProperty(self, Property):
+        return  self.Hand.GetCardsProperty(Property)
+
     #ESTE METODO PERMITE SELECCIONAR UNA CARTA DE LA MANO, SEGUN SU POSICION
     def SelectHandCard(self,Position):
          return self.Hand.GetCard(Position)

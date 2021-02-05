@@ -8,7 +8,7 @@ class STACK(DECK):
     def AddCard(self, Card):
         Lista=list(self.Cards)
         Lista.insert(0, Card)
-        self.Cards=Lista
+        self.Cards=tuple(Lista)
 
     # ESTE METODO RETORNA LA CARTA QUE ESTA EN EL TOPE DE LA PILA
     def GetCard(self, position):

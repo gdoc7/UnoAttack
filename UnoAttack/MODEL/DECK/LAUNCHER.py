@@ -1,21 +1,26 @@
 from UnoAttack.MODEL.DECK.DECK import DECK
-import random
+from random import Random
 
 
 class Launcher(DECK):
 
+    # --------CONSTRUCTORES-------------------------------
+    def __init__(self):
+        self.Random = Random()
+
     def AddCard(self, card):
         lista = list(self.Cards)
         lista.insert(0, card)
-        self.cards = lista
+        self.Cards = tuple(lista)
 
-    def GetCard(self, position):
+    def GetCard(self, position = 0):
         list_cards = list(self.Cards)
         lista = list()
 
-        for range_throw in random.randrange(0, 9):
-            card = list_cards.pop(0)
-            lista.pop(card)
+        for x in range(0,self.Random.randrange(1, 10)):
+            if(len(list_cards) > 0):
+                card = list_cards.pop(0)
+                lista.append(card)
 
-        self.Cards = tuple(lista)
-        return self.Cards
+        self.Cards = tuple(list_cards)
+        return lista

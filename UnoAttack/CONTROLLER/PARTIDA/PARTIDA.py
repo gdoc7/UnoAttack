@@ -5,11 +5,26 @@ class PARTIDA():
     def AssignTurn(self,Turn):
         self.Turn = Turn
 
+    # ESTE METODO RETORNA LOS TURNOS DE LA PARTIDA
     def GetTurn(self):
         return self.Turn
 
+    # ESTE METODO PERMITE ASIGNAR EL STACK DE LA PARTIDA
     def AssignStack(self,Stack):
         self.Stack = Stack
+
+    # ESTE METODO RETORNA EL STACK DE LA PARTIDA
+    def GetStack(self):
+        return self.Stack
+
+    # ESTE METODO PERMITE ASIGNAR EL LANZADOR DE CARTAS LA PARTIDA
+    def AssignLauncher(self, Launcher):
+        self.Launcher = Launcher
+
+    # ESTE METODO RETORNA UNA CANTIDAD ALEATORIA DE CARTAS DEL LANZADOR (0-10)
+    def GetLauncherCards(self):
+        return self.Launcher.GetCard()
+
 
     #RETORNA UNA INSTANCIA DEL JUGADOR EN EL PRESENTE TURNO
     def GetGamerOfTurn(self):
@@ -23,6 +38,7 @@ class PARTIDA():
                 return True
         return False
 
+    #SUMA LA PUNTUACION DE TODOS LOS JUGADORES, EL VALOR OBTENIDO SE LO SUMA AL PUNTAJE DEL GANADOR
     def SumScore(self,Winner):
         for gamer in self.Turn.GetGamers():
             if Winner != gamer:
@@ -30,12 +46,11 @@ class PARTIDA():
 
 
     #INICIO DE LA PARTIDA
-
     def Start(self,Filter,Match):
 
         if not self.VerificateWin():
             Gamer = self.Turn.GetGamer(Filter)
-            GamerCard = Gamer.SelectHandCard(0)
+            GamerCard = Gamer.SelectHandCard(0) #NECESITA LA CARTA SLECCIONADA POR EL JUGADOR EN LA PARTE GRAFICA
             StackCard = self.Stack.GetCard(0)
 
             if Match.Verificate(GamerCard,StackCard):
