@@ -11,11 +11,14 @@ class Launcher(DECK):
 
     def GetCard(self, position):
         list_cards = list(self.Cards)
-        lista = list()
+        lista = []
+        randomc = random.randrange(9)
 
-        for range_throw in random.randrange(0, 9):
+        for range_throw in randomc:
             card = list_cards.pop(0)
-            lista.pop(card)
+            lista.push(card)
 
-        self.Cards = tuple(lista)
-        return self.Cards
+        self.Cards = tuple(list_cards)
+        return lista
+
+
