@@ -8,7 +8,6 @@ class PARTIDA():
     def GetTurn(self):
         return self.Turn
 
-
     def AssignStack(self,Stack):
         self.Stack = Stack
 

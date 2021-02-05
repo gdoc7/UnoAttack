@@ -12,15 +12,15 @@ class SCORE():
 
     # ESTE METODO PERMITE CAMBIAR EL PUNTAJE
     def SetValue(self, Value):
-        if(Value > 0):
+        if(Value >= 0):
             self.Value = Value
 
     # ESTE METODO INCREMENTA EL PUNTAJE
     def Increment(self,Value):
-        if (Value > 0):
+        if (Value >= 0):
             self.Value+=Value
 
     # ESTE METODO DECREMENTA EL PUNTAJE
     def Decrement(self,Value):
-        if(Value > 0):
+        if(Value >= 0):
             self.Value-=Value
