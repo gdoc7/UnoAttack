@@ -24,3 +24,4 @@ class Launcher(DECK):
 
         self.Cards = tuple(list_cards)
         return lista
+
