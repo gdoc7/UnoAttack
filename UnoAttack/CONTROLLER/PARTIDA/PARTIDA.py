@@ -6,7 +6,7 @@ class PARTIDA():
         self.Turn = Turn
 
     def GetTurn(self):
-       return self.Turn
+        return self.Turn
 
 
     def AssignStack(self,Stack):
@@ -26,19 +26,20 @@ class PARTIDA():
 
     def SumScore(self,Winner):
         for gamer in self.Turn.GetGamers():
-            if(Winner != gamer):
+            if Winner != gamer:
                 Winner.IncrementScore(gamer.SumScoreOfCards())
 
 
     #INICIO DE LA PARTIDA
+
     def Start(self,Filter,Match):
 
-        if(not self.VerificateWin()):
+        if not self.VerificateWin():
             Gamer = self.Turn.GetGamer(Filter)
             GamerCard = Gamer.SelectHandCard(0)
             StackCard = self.Stack.GetCard(0)
 
-            if(Match.Verificate(GamerCard,StackCard)):
+            if Match.Verificate(GamerCard,StackCard):
                 self.Stack.AddCard(GamerCard)
                 GamerCard.ApplyEffect(self)
 

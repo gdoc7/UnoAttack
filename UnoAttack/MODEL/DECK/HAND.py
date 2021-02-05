@@ -6,9 +6,9 @@ class HAND(DECK):
 
     # ESTE METODO AGREGA UNA CARTA A LA MANO DE CARTAS DEL JUGADOR
     def AddCard(self, Card):
-        Lista=list(self.Cards)
+        Lista = list(self.Cards)
         Lista.append(Card)
-        self.Cards=Lista
+        self.Cards = tuple(Lista)
 
     # ESTE METODO SACA UNA CARTA A LA MANO DE CARTAS DEL JUGADOR
     def GetCard(self, position):

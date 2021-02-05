@@ -14,5 +14,5 @@ class STACK(DECK):
     def GetCard(self, position):
         Lista=list(self.Cards)
         Card= Lista.pop(0)
-        self.Cards=Lista
+        self.Cards = tuple(Lista)
         return Card
