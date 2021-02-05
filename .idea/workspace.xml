@@ -24,10 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="Arreglando launcher.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/LAUNCHER.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/LAUNCHER.py" afterDir="false" />
-    </list>
+    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="UPDATE - NEW CLASS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,5 +197,55 @@
     <MESSAGE value="UPDATE - NEW CLASS" />
     <MESSAGE value="UPDATE" />
     <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610842090088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1610842090088" />
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1611798242890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1611798242890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1611798242890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1611798242890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611798242890" />
+    <state width="1344" height="216" key="GridCell.Tab.1.bottom" timestamp="1611796567450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611796567450" />
+    <state width="1344" height="216" key="GridCell.Tab.1.center" timestamp="1611796567449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611796567449" />
+    <state width="1344" height="216" key="GridCell.Tab.1.left" timestamp="1611796567449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611796567449" />
+    <state width="1344" height="216" key="GridCell.Tab.1.right" timestamp="1611796567450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611796567450" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1610839628340">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610839628340" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1610859791421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610859791421" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610840909899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610840909899" />
   </component>
 </project>
