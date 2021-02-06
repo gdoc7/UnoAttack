@@ -8,15 +8,24 @@ class TURN():
     def AddGamer(self, Gamer):
         Lista=list(self.Sequence)
         Lista.append(Gamer)
-        self.Sequence=Lista
+        self.Sequence=tuple(Lista)
 
     # ESTE METODO RETORNA UNA INSTANCIA DEL 1ER JUGADOR DE LA SECUENCIA
     def GetGamerInstance(self):
         Sequence=list(self.Sequence)
         Gamer=Sequence.pop(0)
         Sequence.insert(0,Gamer)
-        self.Sequence=Sequence
+        self.Sequence=tuple(Sequence)
         return Gamer
+
+    # ESTE METODO RETORNA UNA INSTANCIA DEL ULTIMO JUGADOR DE LA SECUENCIA
+    def GetLastGamerInstance(self):
+        Sequence = list(self.Sequence)
+        Gamer = Sequence.pop()
+        Sequence.append(Gamer)
+        self.Sequence = tuple(Sequence)
+        return  Gamer
+
 
     # ESTE METODO RETORNA EL JUGADOR DE LA SECUENCIA QUE CUMPLA LA CONDICION DE FILTRO
     def GetGamer(self,Filter):
@@ -38,7 +47,7 @@ class TURN():
     def Revert(self):
         Lista = list(self.Sequence)
         Lista.reverse()
-        self.Sequence=Lista
+        self.Sequence=tuple(Lista)
 
     # ESTE METODO RETORNA LOS JUGADORES DE LA SECUENCIA DE TURNOS
     def GetGamers(self):

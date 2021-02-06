@@ -14,7 +14,8 @@ from UnoAttack.CONTROLLER.PARTIDA.PARTIDA import PARTIDA
 from UnoAttack.CONTROLLER.SCORE.SCORE import SCORE
 from UnoAttack.CONTROLLER.STATUS.STATUS import STATUS
 from UnoAttack.CONTROLLER.TURN.TURN import TURN
-
+from UnoAttack.MODEL.DECK.LAUNCHER import Launcher
+from random import Random
 
 
 stack = STACK()
@@ -129,6 +130,25 @@ turn.AddGamer(Gamer3)
 Partida = PARTIDA()
 Partida.AssignTurn(turn)
 Partida.AssignStack(stack)
+
+
+Launcher = Launcher()
+Launcher.AddCard(CARD(COLOR.Blue, NUMBER.Cero,None))
+Launcher.AddCard(CARD(COLOR.Green, NUMBER.Cero,None))
+Launcher.AddCard(CARD(COLOR.Red, NUMBER.Cero,None))
+Launcher.AddCard(CARD(COLOR.yellow, NUMBER.Cero,None))
+Launcher.AddCard(CARD(COLOR.Blue, NUMBER.Seis,None))
+Launcher.AddCard(CARD(COLOR.Green, NUMBER.Siete,None))
+Launcher.AddCard(CARD(COLOR.Red, NUMBER.Tres,None))
+Launcher.AddCard(CARD(COLOR.yellow, NUMBER.Dos,None))
+Launcher.AddCard(CARD(COLOR.Blue, NUMBER.Ocho,None))
+Launcher.AddCard(CARD(COLOR.Green, NUMBER.Cuatro,None))
+Launcher.AddCard(CARD(COLOR.Red, NUMBER.Uno,None))
+Launcher.AddCard(CARD(COLOR.yellow, NUMBER.Siete,None))
+
+#print(Launcher.GetCard())
+#print(Launcher.Cards)
+
 #(Partida.VerificateWin())
 
 #Factory = FACTORY_SIMPLECARD()
