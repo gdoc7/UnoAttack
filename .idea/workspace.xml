@@ -24,13 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="lanzador terminado">
-      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/Game.py" afterDir="false" />
+    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="Clase game (main) creada&#10;Modificacion de Addcard en LAUNCHER.py&#10;Creacion de la verificacion del LAUNCHER.py">
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/EFFECT/ATTACK_JOKER.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PARTIDA/PARTIDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PARTIDA/PARTIDA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PRUEBA/PRUEBA.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PRUEBA/PRUEBA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/LAUNCHER.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/LAUNCHER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/STACK.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/STACK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/EFFECT/EFFECT.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/EFFECT/EFFECT.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610859785756</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Clase game (main) creada&#10;Modificacion de Addcard en LAUNCHER.py&#10;Creacion de la verificacion del LAUNCHER.py">
+      <created>1612748875976</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612748875976</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +216,7 @@
     <MESSAGE value="Prueba" />
     <MESSAGE value="UPDATE - NEW CLASS" />
     <MESSAGE value="UPDATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
+    <MESSAGE value="Clase game (main) creada&#10;Modificacion de Addcard en LAUNCHER.py&#10;Creacion de la verificacion del LAUNCHER.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase game (main) creada&#10;Modificacion de Addcard en LAUNCHER.py&#10;Creacion de la verificacion del LAUNCHER.py" />
   </component>
 </project>

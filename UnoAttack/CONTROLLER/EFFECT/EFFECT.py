@@ -6,3 +6,7 @@ class EFFECT(metaclass=ABCMeta):
     @abstractmethod
     def Apply(self,Element):
         pass
+
+
+    def SetEffect(self, Effect):
+        self.Effect = Effect
