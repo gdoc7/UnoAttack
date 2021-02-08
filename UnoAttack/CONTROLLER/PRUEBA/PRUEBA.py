@@ -1,3 +1,7 @@
+import multiprocessing
+
+import daemon as daemon
+
 from UnoAttack.CONTROLLER.FACTORY.FACTORY_CARD import FACTORY_CARD
 from UnoAttack.CONTROLLER.FACTORY.FACTORY_SIMPLECARD import FACTORY_SIMPLECARD
 from UnoAttack.MODEL.CARD.CARD import CARD
@@ -145,6 +149,16 @@ Launcher.AddCard(CARD(COLOR.Blue, NUMBER.Ocho,None))
 Launcher.AddCard(CARD(COLOR.Green, NUMBER.Cuatro,None))
 Launcher.AddCard(CARD(COLOR.Red, NUMBER.Uno,None))
 Launcher.AddCard(CARD(COLOR.yellow, NUMBER.Siete,None))
+
+
+#INICIALIZA EL DEMONIO QUE VERIFICA LA CANTIDAD DE CARTAS RESTANTES EN EL LAUNCHER
+d = multiprocessing.Process(
+        name='daemon',
+        target=daemon,
+)
+d.daemon = True
+d.start()
+d.join()
 
 #print(Launcher.GetCard())
 #print(Launcher.Cards)

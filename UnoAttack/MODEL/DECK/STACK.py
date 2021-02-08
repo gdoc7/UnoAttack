@@ -16,3 +16,4 @@ class STACK(DECK):
         Card= Lista.pop(0)
         self.Cards = tuple(Lista)
         return Card
+

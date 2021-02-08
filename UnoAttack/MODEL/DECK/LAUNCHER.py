@@ -10,7 +10,7 @@ class Launcher(DECK):
 
     def AddCard(self, card):
         lista = list(self.Cards)
-        lista.insert(0, card)
+        lista.append(card)
         self.Cards = tuple(lista)
 
     def GetCard(self, position = 0):
@@ -24,4 +24,5 @@ class Launcher(DECK):
 
         self.Cards = tuple(list_cards)
         return lista
+
 
