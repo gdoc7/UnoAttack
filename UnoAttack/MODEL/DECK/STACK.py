@@ -11,9 +11,9 @@ class STACK(DECK):
         self.Cards=tuple(Lista)
 
     # ESTE METODO RETORNA LA CARTA QUE ESTA EN EL TOPE DE LA PILA
-    def GetCard(self, position):
+    def GetCard(self, position = 0):
         Lista=list(self.Cards)
-        Card= Lista.pop(0)
+        Card= Lista.pop(position)
         self.Cards = tuple(Lista)
         return Card
 

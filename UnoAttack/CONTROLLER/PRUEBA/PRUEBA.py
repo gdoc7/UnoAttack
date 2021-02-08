@@ -1,6 +1,5 @@
 import multiprocessing
 
-import daemon as daemon
 
 from UnoAttack.CONTROLLER.FACTORY.FACTORY_CARD import FACTORY_CARD
 from UnoAttack.CONTROLLER.FACTORY.FACTORY_SIMPLECARD import FACTORY_SIMPLECARD
@@ -124,6 +123,8 @@ Gamer2.AssignScore(Score2)
 Gamer3.AssignScore(Score3)
 
 stack.AddCard(Card6)
+#stack.AddCard(Card7)
+#stack.AddCard(Card8)
 
 
 #ASIGNACION DE LOS TURNOS
@@ -150,15 +151,22 @@ Launcher.AddCard(CARD(COLOR.Green, NUMBER.Cuatro,None))
 Launcher.AddCard(CARD(COLOR.Red, NUMBER.Uno,None))
 Launcher.AddCard(CARD(COLOR.yellow, NUMBER.Siete,None))
 
-
+#Partida.AssignLauncher(Launcher)
+#Partida.Verifylauncher()
+#print(Partida.Stack.Cards)
+#print(Partida.Launcher.Cards)
 #INICIALIZA EL DEMONIO QUE VERIFICA LA CANTIDAD DE CARTAS RESTANTES EN EL LAUNCHER
-d = multiprocessing.Process(
-        name='daemon',
-        target=daemon,
-)
-d.daemon = True
-d.start()
-d.join()
+# d = multiprocessing.Process(
+#         name='daemon',
+#         target=daemon,
+# )
+# d.daemon = True
+# d.start()
+# d.join()
+
+
+
+
 
 #print(Launcher.GetCard())
 #print(Launcher.Cards)

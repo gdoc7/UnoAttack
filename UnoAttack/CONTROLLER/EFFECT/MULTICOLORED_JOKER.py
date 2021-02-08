@@ -8,7 +8,7 @@ class MULTICOLORED_JOKER(EFFECT):
     def Apply(self,Element):
 
         Stack = Element.GetStack()
-        Card = Stack.GetCard(0)
+        Card = Stack.GetCard()
         Card.SetProperty(COLOR.Blue) #AQUI SE DEBE PASAR EL COLOR ELEGIDO POR EL JUGADOR
         Stack.AddCard(Card)
 

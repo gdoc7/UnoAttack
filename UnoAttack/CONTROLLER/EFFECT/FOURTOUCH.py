@@ -20,6 +20,6 @@ class TWOTOUCH(EFFECT):
 
         #SE ASIGNA EL COLOR DE LA CARTA DEL STACK
         Stack = Element.GetStack()
-        Card = Stack.GetCard(0)
+        Card = Stack.GetCard()
         Card.SetProperty(COLOR.Blue)  # AQUI SE DEBE PASAR EL COLOR ELEGIDO POR EL JUGADOR
         Stack.AddCard(Card)
