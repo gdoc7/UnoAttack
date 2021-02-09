@@ -1,6 +1,6 @@
 from tkinter import *
 from random import randint, choice, shuffle
-from PIL import Image, 
+from PIL import ImageTk
 
 # Borde
 col = "lightgoldenrodyellow"
