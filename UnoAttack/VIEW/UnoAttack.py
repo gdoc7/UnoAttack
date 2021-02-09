@@ -1,6 +1,6 @@
 from tkinter import *
 from random import randint, choice, shuffle
-from PIL import ImageTk
+from PIL import ImageTk, Image
 
 # Borde
 col = "lightgoldenrodyellow"
@@ -11,7 +11,7 @@ root.geometry("1500x750")
 root.resizable(False, False)
 root.wm_attributes('-transparentcolor', "orange")
 root.configure(bg=col)
-root.title(f"Uno Attack [P{player.num}]")
+root.title("Uno Attack")
 
 # Donde están las imagenes
 folder = "Revamped Uno_Assets"   # Si no funciona, usar la ruta absoluta.
