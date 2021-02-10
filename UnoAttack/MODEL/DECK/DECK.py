@@ -18,3 +18,10 @@ class DECK(metaclass=ABCMeta):
 # ESTE METODO RETORNA EL ATRIBUTO "CARDS"
     def Get_Cards(self):
         return self.Cards
+
+#ESTE METODO AGREGA UN LISTA DE CARTAS
+
+    def AddCards(self, Cartas):
+        for card in Cartas:
+            self.AddCard(card)
+        return

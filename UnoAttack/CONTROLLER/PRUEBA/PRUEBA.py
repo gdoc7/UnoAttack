@@ -2,7 +2,11 @@ import multiprocessing
 
 
 from UnoAttack.CONTROLLER.FACTORY.FACTORY_CARD import FACTORY_CARD
+from UnoAttack.CONTROLLER.FACTORY.FACTORY_FOURCARD import FACTORY_FOURCARD
+from UnoAttack.CONTROLLER.FACTORY.FACTORY_GAMER import FACTORY_GAMER
+from UnoAttack.CONTROLLER.FACTORY.FACTORY_JUMPCARD import FACTORY_JUMPCARD
 from UnoAttack.CONTROLLER.FACTORY.FACTORY_SIMPLECARD import FACTORY_SIMPLECARD
+from UnoAttack.CONTROLLER.FACTORY.FACTORY_TWOTOUCHCARD import FACTORY_TWOTOUCHCARD
 from UnoAttack.MODEL.CARD.CARD import CARD
 from UnoAttack.CONTROLLER.ENUMERATE.COLOR import COLOR
 from UnoAttack.MODEL.DECK.HAND import HAND
@@ -19,6 +23,15 @@ from UnoAttack.CONTROLLER.STATUS.STATUS import STATUS
 from UnoAttack.CONTROLLER.TURN.TURN import TURN
 from UnoAttack.MODEL.DECK.LAUNCHER import Launcher
 from random import Random
+
+factory = FACTORY_GAMER()
+nombres = ["luis", "carlos"]
+gamer = factory.Create(1, nombres)
+print(gamer)
+
+
+
+
 
 
 stack = STACK()

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
@@ -10,13 +24,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="UPDATE - NEW CLASS">
+    <list default="true" id="ad8aaf08-88e9-44ba-bd1e-c5e3150ab153" name="Default Changelist" comment="Efecto Comodin de Ataque ( ATTACK_JOKER.py ) Creado">
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/FACTORY/FACTORY_GAMER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/FACTORY/FACTORY_JUMPCARD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/FACTORY/FACTORY_MULTICOLORCARD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/FACTORY/FACTORY_REVERSECARD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/FACTORY/FACTORY_THROWCARD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/FACTORY/FACTORY_TWOTOUCHCARD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/GAME/GAME.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/GAME/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/EFFECT/FOURTOUCH.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/EFFECT/FOURTOUCH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/EFFECT/MULTICOLORED_JOKER.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/EFFECT/MULTICOLORED_JOKER.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/FACTORY/FACTORY_FOURCARD.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PARTIDA/PARTIDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PARTIDA/PARTIDA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PRUEBA/PRUEBA.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/CONTROLLER/PRUEBA/PRUEBA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/STACK.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/STACK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/DECK.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnoAttack/MODEL/DECK/DECK.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +71,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UnoAttack/CONTROLLER/PRUEBA/PRUEBA.py" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a0soe\PycharmProjects\UnoAttack\UnoAttack\CONTROLLER\Game" />
       <recent name="C:\Users\Jose\PycharmProjects\UnoAttack\UnoAttack\Logical\STATUS" />
       <recent name="C:\Users\Jose\PycharmProjects\UnoAttack\UnoAttack\Logical\PRUEBA" />
       <recent name="C:\Users\Jose\PycharmProjects\UnoAttack\UnoAttack\Logical" />
@@ -82,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PRUEBA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PRUEBA" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="UnoAttack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnoAttack/CONTROLLER/PRUEBA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnoAttack/Logical/PRUEBA/PRUEBA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnoAttack/CONTROLLER/PRUEBA/PRUEBA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,15 +147,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.PRUEBA" />
+      <item itemvalue="Python.GAMER" />
+      <item itemvalue="Python.TURN" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PRUEBA" />
         <item itemvalue="Python.GAMER" />
         <item itemvalue="Python.TURN" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -186,7 +213,7 @@
       <option name="project" value="LOCAL" />
       <updated>1612748875976</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,64 +232,7 @@
     <MESSAGE value="Prueba" />
     <MESSAGE value="UPDATE - NEW CLASS" />
     <MESSAGE value="UPDATE" />
-    <MESSAGE value="MVC" />
-    <MESSAGE value="Actualizacion" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main' into main&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <MESSAGE value="Merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610842090088">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1610842090088" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1612487358169">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1612487358169" />
-    <state width="1344" height="217" key="GridCell.Tab.0.bottom" timestamp="1612561955007">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612561955007" />
-    <state width="1344" height="217" key="GridCell.Tab.0.center" timestamp="1612561955007">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612561955007" />
-    <state width="1344" height="217" key="GridCell.Tab.0.left" timestamp="1612561955007">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612561955007" />
-    <state width="1344" height="217" key="GridCell.Tab.0.right" timestamp="1612561955007">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612561955007" />
-    <state width="1344" height="216" key="GridCell.Tab.1.bottom" timestamp="1612151994820">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611796567449" />
-    <state width="1344" height="216" key="GridCell.Tab.1.left" timestamp="1611796567449">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611796567449" />
-    <state width="1344" height="216" key="GridCell.Tab.1.right" timestamp="1611796567450">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611796567450" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1610839628340">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610839628340" />
-    <state x="530" y="276" key="VCS.ChangelistChooser" timestamp="1612486880977">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="530" y="276" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1612486880977" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1612486740582">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612486740582" />
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610840909899">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610840909899" />
+    <MESSAGE value="Clase game (main) creada&#10;Modificacion de Addcard en LAUNCHER.py&#10;Creacion de la verificacion del LAUNCHER.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase game (main) creada&#10;Modificacion de Addcard en LAUNCHER.py&#10;Creacion de la verificacion del LAUNCHER.py" />
   </component>
 </project>
