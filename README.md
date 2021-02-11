@@ -17,6 +17,6 @@ Visitar [aqui](https://www.python.org/downloads/release/python-380/)
 Para correr el juego debes digirte a la carpeta y usar el siguiente comando 
 
 ## Windows 
-`tu_directorio/UnoAttack> python PARTIDA.py`
+`tu_directorio/UnoAttack> python UnoAttack.py`
 
 Saldra la ventana y podras disfrutar del juego  	:black_joker:
