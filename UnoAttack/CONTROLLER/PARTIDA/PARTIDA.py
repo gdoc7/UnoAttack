@@ -1,3 +1,4 @@
+import multiprocessing
 
 
 class PARTIDA():
@@ -52,21 +53,24 @@ class PARTIDA():
         if not self.VerificateWin():
             Gamer = self.Turn.GetGamer(Filter)
             GamerCard = Gamer.SelectHandCard(0) #NECESITA LA CARTA SLECCIONADA POR EL JUGADOR EN LA PARTE GRAFICA
-            StackCard = self.Stack.GetCard()
+            StackCard = self.Stack.GetCard(0)
 
             if Match.Verificate(GamerCard,StackCard):
                 self.Stack.AddCard(GamerCard)
                 GamerCard.ApplyEffect(self)
-                self.Verifylauncher()
 
 
     #REVISA SI AUN QUEDAN CARTAS EN LANZADOR Y CARGA SI HACE FALTA DEL STACK
-    def Verifylauncher(self):
-
+    def Verifylauncher(self, stack, launcher):
+        daemon = multiprocessing.current_process()
         stack = self.Stack
         launcher = self.Launcher
         if len(launcher.Get_Cards()) <= 10:
-            for x in range(len(stack.Get_Cards())-1,0,-1):
+            for x in reversed(stack.Get_Cards()-1):
                 carta = stack.GetCard(x)
                 launcher.AddCard(carta)
+
+
+
+
 
